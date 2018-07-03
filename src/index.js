@@ -1,6 +1,6 @@
 /* eslint-env browser */
 import _ from 'lodash';
-import './style.css';
+import './css/style.css';
 import Icon from './oneicon.svg';
 import runCode from './code';
 
