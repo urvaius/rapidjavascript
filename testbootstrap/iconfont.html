@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="../src/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../src/css/font-awesome/css/all.css"/>
+  </head>
+  <body class="container">
+
+    <div class="navbar">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">My site</a>
+        <ul class="nav navbar-nav">
+          <li><a href="#">Menu 1 <i class="fa fa-caret-down"></i></a></li>
+          <li><a href="#">Menu 2 <i class="fa fa-arrow-down"></i></a></li>
+          <li><a href="#">Menu 3 <i class="fa fa-caret-square-o-down"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <ol class="breadcrumb">
+      <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
+      <li class="active">Welcome</li>
+    </ol>
+    <div class="jumbotron"><h1><i class="fa fa-heart fa-2x text-primary"></i> Welcome to site</h1><div>
+    <div class="content">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="well">
+            <p>Here is some sample test to add into my paragraph just for testing out bootstrap.</p>
+          </div>
+          <table class="table table-bordered table-striped">
+            <thead>
+              <th>Name</th><th>Age</th><th>State</th><th>Registered</th>
+            </thead>
+            <tbody>
+              <tr><td>John</td><td>18</td><td>WI</td><td><i class="fa fa-check-square"></i></td></tr>
+              <tr><td>Sarah</td><td>25</td><td>IN</td><td><i class="fa fa-square"></i></td></tr>
+              <tr><td>Julie</td><td>22</td><td>NY</td><td><i class="fa fa-check-square"></i></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="well">
+            <form>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" placeholder="email address"
+              </div>
+              <button class="btn btn-default" type="submit"><i class="fa fa-save"></i>submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center">
+      <p>&copy; My Company</p>
+    </footer>
+  </body>
+</html>
