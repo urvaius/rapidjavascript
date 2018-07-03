@@ -1,7 +1,7 @@
 /* eslint-env browser */
 import _ from 'lodash';
 import './css/style.css';
-import Icon from './oneicon.svg';
+import Icon from './image/oneicon.svg';
 import runCode from './code';
 
 function component() {
