@@ -5,7 +5,8 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
-    app: './src/index.js',
+    // app: './src/index.js',
+    app: './src/index1.js',
     code: './src/code.js',
   },
   output: {
@@ -35,7 +36,7 @@ module.exports = {
     new CleanWebpackPlugin(['dist']),
     new HtmlWebPackPlugin({
       // title: 'output management',
-      // template: './src/index1.html',
+      template: './src/index1.html',
     }),
     // new HtmlWebPackPlugin({tempate: './index.html'})
   ],
