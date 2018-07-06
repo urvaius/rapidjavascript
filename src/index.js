@@ -4,6 +4,8 @@ import './css/style.css';
 import Icon from './image/oneicon.svg';
 import runCode from './code';
 
+
+const body = document.getElementsByTagName('body')[0];
 function component() {
   const element = document.createElement('div');
   const btn = document.createElement('button');
@@ -22,5 +24,5 @@ function component() {
 
   return element;
 }
-
-document.body.appendChild(component());
+body.appendChild(component());
+// document.body.appendChild(component());
