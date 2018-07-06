@@ -34,7 +34,8 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new HtmlWebPackPlugin({
-      title: 'output management',
+      // title: 'output management',
+      // template: './src/index1.html',
     }),
     // new HtmlWebPackPlugin({tempate: './index.html'})
   ],
