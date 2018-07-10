@@ -1,8 +1,21 @@
 <html>
   <head>
     <script type="text/javascript" src="../node_modules/jquery/dist/jquery.js"></script>
+    <script type="text/javascript">
+     // javascript way.
+      window.onload = function() {
+        alert('window loaded');
+      };
+      // $ is alias for jquery this is jquery way change my content div to hello world as well
+      $(document).ready(function() {
+        alert('DOM loaded');
+        $('#myContent').html('Hello World');
+      });
+      </script>
   </head>
   <body>
+    <div id="myContent">
     Jquery enabled!
+    </div>
   </body>
 </html>
